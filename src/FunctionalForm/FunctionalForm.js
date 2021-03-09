@@ -7,7 +7,6 @@ function FunctionalForm() {
   
   function saveInput(e) {
     e.preventDefault();
-    console.log("Click!");
     setUserName(document.functionalForm.userName.value);
     setAge(document.functionalForm.age.value);
   }
